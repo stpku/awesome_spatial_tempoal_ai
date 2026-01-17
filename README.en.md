@@ -90,25 +90,16 @@ A curated list of resources for Spatio-Temporal AI, including spatial intelligen
 
 ### Chinese Public Accounts
 
-- **燕园时空** - Official public account of Peking University's spatial intelligence research team, sharing cutting-edge research and technical applications (Last Updated: 2024-01-16)
-- **未名时空** - Academic public account focusing on spatiotemporal data analysis, urban computing, and GeoAI (Last Updated: 2024-01-15)
-- **bigscity** - Important public account in the field of spatiotemporal big data and urban computing, focusing on cutting-edge technologies such as spatial intelligence and urban sensing (Last Updated: 2024-01-14)
-- **UrbanComp位置智能和城市感知** - Academic public account focusing on urban computing, spatiotemporal big data mining, and location intelligence, sharing cutting-edge research and technical applications (Last Updated: 2024-01-15)
-- **时空大数据与社会感知** - Operated by Professor Huang Bo's team at Peking University, focusing on spatiotemporal intelligence and geographical information science research progress (Last Updated: 2024-01-12)
-- **GeoAI前沿** - Focuses on the latest research developments, technological advances, and application cases in geospatial artificial intelligence (GeoAI) (Last Updated: 2024-01-10)
+- **燕园时空** - Focusing on cutting-edge research and technical applications in the field of spatial intelligence
+- **未名时空** - Peking University GeoSoft Lab, an academic public account focusing on spatiotemporal data analysis, urban computing and GeoAI
+- **bigscity** - Academic public account in the field of spatiotemporal big data and urban computing at Beihang University, focusing on cutting-edge technologies such as spatial intelligence and urban sensing (Last Updated: 2024-01-14)
+- **时空探索之旅** - Sharing the latest research and technical applications in the spatiotemporal field
 
 ### International Newsletters
 
 - **[GeoNe.ws](https://geone.ws/)** - One of the most popular geospatial newsletters, covering industry news and learning resources for GIS and related fields (Update Frequency: Weekly)
 - **[Esri GeoAI Newsletter](https://www.esri.com/en-us/arcgis/products/arcgis-geoai/overview)** - GeoAI-related information published by Esri, including the latest training courses and GeoAI model applications (Update Frequency: Monthly)
 - **[Spatially Informed](https://spatially.informed.blog/)** - Newsletter focusing on spatial data analysis, geographic information systems, and spatial statistics (Update Frequency: Bi-weekly)
-
-### Academic Conferences
-
-- **[ACM SIGSPATIAL](https://sigspatial2025.sigspatial.org/)** - ACM's flagship conference on spatial data, focusing on spatial data science, geoinformatics, and spatiotemporal databases (Update Frequency: Annual)
-- **[Spatial Data Science Conference](https://spatial-data-science-conference.com/)** - Conference bringing together geospatial, analytics, and data science professionals to discuss the latest advances in spatial domains (Update Frequency: Annual)
-- **[AAG Annual Meeting](https://www.aag.org/)** - American Association of Geographers annual meeting, featuring symposiums on spatial AI and data science frontiers (Update Frequency: Annual)
-- **[International Symposium on Spatiotemporal Data Science](https://sdl.gis.harvard.edu/event/2025-international-symposium-spatiotemporal-data-science)** - Harvard-hosted international symposium on spatiotemporal data science, bringing together experts from industry, government, and academia (Update Frequency: Annual)
 
 ## Contribution
 
