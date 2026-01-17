@@ -54,6 +54,10 @@ A curated list of resources for Spatio-Temporal AI, including spatial intelligen
 - **[GeoPandas](https://github.com/geopandas/geopandas)** - Python library that extends pandas to allow spatial operations on geometric types, widely used for geospatial ML. (Stars: 4800, Last Updated: 2024-01-16) `Python` `Pandas` `Shapely`
 - **[PySAL](https://github.com/pysal/pysal)** - Python Spatial Analysis Library, providing tools for spatial data analysis and modeling. (Stars: 950, Last Updated: 2024-01-11) `Python` `Spatial Statistics`
 
+### Spatio-Temporal API Services
+
+- **[Public ST APIs](https://gitee.com/stpku/public-st-apis)** - A scalable collection of geospatial APIs focused on meeting various spatio-temporal service needs, such as mapping services, weather APIs, POI queries, spatial intelligence, etc. `API Collection` `Geospatial` `Spatio-Temporal`
+
 ### OSGeo Spatiotemporal Analysis Projects
 
 - **[GRASS GIS](https://grass.osgeo.org/)** - A powerful open-source geospatial processing engine that supports advanced modeling, time series analysis, and spatial data management with comprehensive spatiotemporal capabilities. `C` `Python` `Time Series Analysis`

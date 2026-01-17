@@ -54,6 +54,10 @@
 - **[GeoPandas](https://github.com/geopandas/geopandas)** - Python library that extends pandas to allow spatial operations on geometric types, widely used for geospatial ML. (Stars: 4800, Last Updated: 2024-01-16) `Python` `Pandas` `Shapely`
 - **[PySAL](https://github.com/pysal/pysal)** - Python Spatial Analysis Library, providing tools for spatial data analysis and modeling. (Stars: 950, Last Updated: 2024-01-11) `Python` `Spatial Statistics`
 
+### 时空API服务 (Spatio-Temporal API Services)
+
+- **[Public ST APIs](https://gitee.com/stpku/public-st-apis)** - 一个可扩展的地理空间API集合，专注于满足各类时空信息服务需求，如地图服务、天气API、POI查询、空间智能等。 `API Collection` `Geospatial` `Spatio-Temporal`
+
 ### OSGeo时空分析项目 (OSGeo Spatiotemporal Analysis Projects)
 
 - **[GRASS GIS](https://grass.osgeo.org/)** - A powerful open-source geospatial processing engine that supports advanced modeling, time series analysis, and spatial data management with comprehensive spatiotemporal capabilities. `C` `Python` `Time Series Analysis`
