@@ -1,0 +1,230 @@
+{
+  "spatial_intelligence": [
+    {
+      "name": "World Labs - Marble",
+      "url": "https://www.worldlabs.ai/",
+      "description": "Marble by World Labs (co-founded by Fei-Fei Li) is a platform that generates high-fidelity, persistent 3D worlds. Users can create worlds from images, videos, text descriptions, or 3D layouts.",
+      "category": "3D Generation",
+      "tech_stack": [
+        "Python",
+        "3D Generation",
+        "Multimodal"
+      ],
+      "highlights": [
+        "High-fidelity 3D world generation",
+        "Persistent worlds",
+        "Multiple input modalities"
+      ]
+    },
+    {
+      "name": "DeepMind - Genie 2",
+      "url": "https://deepmind.google/discover/blog/genie-2/",
+      "description": "DeepMind's Foundation World Model that can create an endless variety of playable 3D game worlds.",
+      "category": "World Models",
+      "tech_stack": [
+        "Python",
+        "World Models",
+        "3D Environments"
+      ],
+      "highlights": [
+        "Playable 3D worlds",
+        "Foundation world model",
+        "Endless variety"
+      ]
+    },
+    {
+      "name": "Spatial Intelligence @ Stanford",
+      "url": "https://spatialintelligence.stanford.edu/",
+      "description": "Stanford's spatial intelligence research project exploring how AI can understand and manipulate the physical world.",
+      "category": "Research",
+      "tech_stack": [
+        "Python",
+        "Robotics",
+        "3D Perception"
+      ],
+      "highlights": [
+        "Academic research",
+        "Physical world understanding",
+        "Robotics integration"
+      ]
+    },
+    {
+      "name": "LLaVA-ST",
+      "url": "https://github.com/appletea233/LLaVA-ST",
+      "description": "[CVPR 2025] LLaVA-ST: A Multimodal Large Language Model for Fine-Grained Spatial-Temporal Understanding",
+      "category": "Multimodal ML",
+      "tech_stack": [
+        "Python",
+        "Multimodal",
+        "LLM"
+      ],
+      "highlights": [
+        "CVPR 2025 acceptance",
+        "Fine-grained understanding",
+        "Spatial-temporal localization"
+      ]
+    },
+    {
+      "name": "Oryx",
+      "url": "https://github.com/oryx-mllm/oryx",
+      "description": "[ICLR 2025] MLLM for On-Demand Spatial-Temporal Understanding at Arbitrary Resolution",
+      "category": "Multimodal ML",
+      "tech_stack": [
+        "Python",
+        "MLLM",
+        "Spatial-Temporal"
+      ],
+      "highlights": [
+        "ICLR 2025 acceptance",
+        "Arbitrary resolution",
+        "On-demand understanding"
+      ]
+    },
+    {
+      "name": "SpatialVLA",
+      "url": "https://github.com/SpatialVLA/SpatialVLA",
+      "description": "SpatialVLA: a spatial-enhanced vision-language-action model that is trained on 1.1 Million real robot episodes. Accepted at RSS 2025.",
+      "category": "Robotics",
+      "tech_stack": [
+        "Python",
+        "Vision-Language-Action",
+        "Robotics"
+      ],
+      "highlights": [
+        "RSS 2025 acceptance",
+        "1.1M robot episodes",
+        "Spatial-enhanced"
+      ]
+    },
+    {
+      "name": "STAR",
+      "url": "https://github.com/NJU-PCALab/STAR",
+      "description": "[ICCV 2025] STAR: Spatial-Temporal Augmentation with Text-to-Video Models for Real-World Video Super-Resolution",
+      "category": "Video Processing",
+      "tech_stack": [
+        "Python",
+        "Text-to-Video",
+        "Super-Resolution"
+      ],
+      "highlights": [
+        "ICCV 2025 acceptance",
+        "Video super-resolution",
+        "Text-to-video augmentation"
+      ]
+    }
+  ],
+  "world_models": [
+    {
+      "name": "MaGRITTe",
+      "url": "https://github.com/facebookresearch/magritte",
+      "description": "Meta's Masked Geometric Image Transformer for 3D Representation Learning, a world model for 3D representation learning.",
+      "category": "3D Representation",
+      "tech_stack": [
+        "Python",
+        "PyTorch",
+        "3D Reconstruction"
+      ],
+      "highlights": [
+        "3D representation learning",
+        "Geometric image transformer",
+        "Meta research"
+      ]
+    },
+    {
+      "name": "PlaNet",
+      "url": "https://github.com/google-research/planet",
+      "description": "Google's PlaNet (Planner Neural Network) is a world model based on deep reinforcement learning.",
+      "category": "Reinforcement Learning",
+      "tech_stack": [
+        "Python",
+        "Reinforcement Learning",
+        "Planning"
+      ],
+      "highlights": [
+        "Deep RL",
+        "Planning network",
+        "Google research"
+      ]
+    },
+    {
+      "name": "DreamerV3",
+      "url": "https://danijar.com/project/dreamerv3/",
+      "description": "A sample-efficient world model for reinforcement learning that can learn complex behaviors in simulated environments.",
+      "category": "Reinforcement Learning",
+      "tech_stack": [
+        "Python",
+        "Reinforcement Learning",
+        "Efficiency"
+      ],
+      "highlights": [
+        "Sample efficient",
+        "Complex behavior learning",
+        "Simulated environments"
+      ]
+    },
+    {
+      "name": "WorldGrow",
+      "url": "https://github.com/world-grow/WorldGrow",
+      "description": "WorldGrow: Generating Infinite 3D World [AAAI 2026 Oral]",
+      "category": "3D Generation",
+      "tech_stack": [
+        "Python",
+        "3D Generation",
+        "World Models"
+      ],
+      "highlights": [
+        "AAAI 2026 Oral",
+        "Infinite 3D world",
+        "Generative approach"
+      ]
+    },
+    {
+      "name": "WorldGen",
+      "url": "https://github.com/ZiYang-xie/WorldGen",
+      "description": "WorldGen - Generate Any 3D Scene in Seconds",
+      "category": "3D Generation",
+      "tech_stack": [
+        "Python",
+        "3D Generation",
+        "Text-to-3D"
+      ],
+      "highlights": [
+        "Fast generation",
+        "Text-to-3D",
+        "Interactive 3D scenes"
+      ]
+    },
+    {
+      "name": "HunyuanWorld-1.0",
+      "url": "https://github.com/Tencent-Hunyuan/HunyuanWorld-1.0",
+      "description": "Generating Immersive, Explorable, and Interactive 3D Worlds from Words or Pixels with Hunyuan3D World Model",
+      "category": "3D World Model",
+      "tech_stack": [
+        "Python",
+        "3D World Model",
+        "Tencent"
+      ],
+      "highlights": [
+        "Tencent research",
+        "Immersive 3D worlds",
+        "Multi-modal input"
+      ]
+    },
+    {
+      "name": "UltraSTF",
+      "url": "https://arxiv.org/abs/2502.20634",
+      "description": "Ultra-Compact Model for Large-Scale Spatio-Temporal Forecasting",
+      "category": "Spatio-Temporal Forecasting",
+      "tech_stack": [
+        "Python",
+        "Forecasting",
+        "Compact Model"
+      ],
+      "highlights": [
+        "Ultra-compact",
+        "Large-scale forecasting",
+        "Spatio-temporal data"
+      ]
+    }
+  ]
+}

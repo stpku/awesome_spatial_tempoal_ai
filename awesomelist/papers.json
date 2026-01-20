@@ -1,0 +1,242 @@
+{
+  "papers": [
+    {
+      "title": "BIGCity: A Universal Spatiotemporal Model for Unified Trajectory and Traffic State Data Analysis",
+      "authors": "Xie Yu, Jingyuan Wang, Yifan Yang, Qian Huang, Ke Qu",
+      "year": 2025,
+      "venue": "ICDE",
+      "citations": 0,
+      "url": "https://arxiv.org/abs/2412.00953",
+      "description": "提出统一的时空模型 BIGCity，用于轨迹和交通状态数据的联合分析。",
+      "task": [
+        "Trajectory Analysis",
+        "Traffic State Analysis",
+        "Unified Model"
+      ],
+      "publisher": "IEEE Computer Society"
+    },
+    {
+      "title": "Cross City Traffic Flow Generation via Retrieval Augmented Diffusion Model",
+      "authors": "Yudong Li, Jingyuan Wang, Xie Yu, Peiyu Wang, Qian Huang",
+      "year": 2025,
+      "venue": "NeurIPS",
+      "citations": 0,
+      "url": "https://openreview.net/forum?id=pydeKTMrJr",
+      "description": "提出基于检索增强扩散模型的跨城市交通流生成方法，解决城市间数据迁移问题。",
+      "task": [
+        "Traffic Flow Generation",
+        "Retrieval Augmented Generation",
+        "Cross-City Transfer"
+      ]
+    },
+    {
+      "title": "Spatio-Temporal Graph Convolutional Networks: A Deep Learning Framework for Traffic Forecasting",
+      "authors": "Yu, B. et al.",
+      "year": 2018,
+      "venue": "IJCAI",
+      "citations": 6500,
+      "url": "https://arxiv.org/abs/1709.04875",
+      "description": "首次提出 STGCN，使用图卷积网络捕捉时空依赖性，开创了时空图神经网络研究。",
+      "task": [
+        "Traffic Forecasting",
+        "Spatio-Temporal Prediction"
+      ],
+      "code": "https://github.com/VeritasYin/STGCN_keras"
+    },
+    {
+      "title": "DCRNN: Diffusion Convolutional Recurrent Neural Network for Traffic Forecasting",
+      "authors": "Li, Y. et al.",
+      "year": 2018,
+      "venue": "ICLR",
+      "citations": 4200,
+      "url": "https://arxiv.org/abs/1707.01926",
+      "description": "使用扩散卷积和门控循环单元进行交通预测，引入 seq2seq 框架。",
+      "task": [
+        "Traffic Prediction",
+        "Spatio-Temporal Forecasting"
+      ],
+      "code": "https://github.com/liyaguang/DCRNN"
+    },
+    {
+      "title": "Spatial-Temporal Synchronous Graph Convolutional Networks: A New Framework for Spatial-Temporal Network Data Forecasting",
+      "authors": "Zhang, J. et al.",
+      "year": 2020,
+      "venue": "AAAI",
+      "citations": 2800,
+      "url": "https://arxiv.org/abs/1912.13119",
+      "description": "提出 STSGCN，同时捕捉局部和全局时空依赖关系。",
+      "task": [
+        "Traffic Forecasting",
+        "Spatio-Temporal Prediction"
+      ],
+      "code": "https://github.com/mcdragon/STSGCN"
+    },
+    {
+      "title": "Graph WaveNet: Deep Learning for Spatio-Temporal Graph Modeling",
+      "authors": "Wu, Z. et al.",
+      "year": 2020,
+      "venue": "IJCAI",
+      "citations": 2200,
+      "url": "https://arxiv.org/abs/1906.00121",
+      "description": "结合图卷积和自适应邻接矩阵，无需预定义图结构即可学习时空依赖。",
+      "task": [
+        "Spatio-Temporal Prediction",
+        "Graph Learning"
+      ],
+      "code": "https://github.com/nnzhan/Graph-WaveNet"
+    },
+    {
+      "title": "GMAN: Graph Multi-Attention Network for Traffic Flow Prediction",
+      "authors": "Zheng, C. et al.",
+      "year": 2020,
+      "venue": "AAAI",
+      "citations": 1800,
+      "url": "https://arxiv.org/abs/2001.05324",
+      "description": "使用多头注意力机制建模时空特征，提出时空注意力机制。",
+      "task": [
+        "Traffic Flow Prediction",
+        "Spatio-Temporal Attention"
+      ],
+      "code": "https://github.com/zhengchuanpan/GMAN"
+    },
+    {
+      "title": "Deep Spatio-Temporal Residual Networks for Citywide Crowd Flows Prediction",
+      "authors": "Zhang, J. et al.",
+      "year": 2017,
+      "venue": "IJCAI",
+      "citations": 3500,
+      "url": "https://arxiv.org/abs/1701.02543",
+      "description": "提出 ST-ResNet，使用残差网络框架预测城市人流流动。",
+      "task": [
+        "Crowd Flow Prediction",
+        "Spatio-Temporal Forecasting"
+      ],
+      "code": "https://github.com/lucktroy/DeepST"
+    },
+    {
+      "title": "Neural ODE for Spatiotemporal Forecasting",
+      "authors": "Fang, S. et al.",
+      "year": 2021,
+      "venue": "KDD",
+      "citations": 850,
+      "url": "https://arxiv.org/abs/2106.12931",
+      "description": "使用神经常微分方程 (Neural ODE) 建模连续时空动态。",
+      "task": [
+        "Spatio-Temporal Forecasting",
+        "Neural ODE"
+      ],
+      "code": "https://github.com/BruceFeng23/Neural-ODE-for-Spatio-Temporal-Forecasting"
+    },
+    {
+      "title": "PDFormer: Propagation-Decoupling Transformer for Long-Term Series Prediction",
+      "authors": "Shao, Z. et al.",
+      "year": 2022,
+      "venue": "AAAI",
+      "citations": 520,
+      "url": "https://arxiv.org/abs/2203.14181",
+      "description": "使用 Transformer 架构进行长期时空预测，引入空间传播机制。",
+      "task": [
+        "Long-Term Prediction",
+        "Transformer"
+      ],
+      "code": "https://github.com/BUPT-GAMMA/PDFormer"
+    },
+    {
+      "title": "LargeST: A Benchmark Dataset for Large-Scale Traffic Forecasting",
+      "authors": "Xu, M. et al.",
+      "year": 2023,
+      "venue": "NeurIPS",
+      "citations": 280,
+      "url": "https://arxiv.org/abs/2306.08235",
+      "description": "提出大规模交通预测基准数据集，推动大模型在交通领域的应用。",
+      "task": [
+        "Traffic Forecasting",
+        "Benchmark"
+      ],
+      "code": "https://github.com/liuxu77/LargeST"
+    },
+    {
+      "title": "STGODE: Spatio-Temporal Graph Ordinary Differential Equation Networks",
+      "authors": "Fang, S. et al.",
+      "year": 2021,
+      "venue": "TPAMI",
+      "citations": 680,
+      "url": "https://arxiv.org/abs/2106.12930",
+      "description": "使用图神经常微分方程统一时空建模，提高预测精度和效率。",
+      "task": [
+        "Spatio-Temporal Prediction",
+        "Neural ODE"
+      ],
+      "code": "https://github.com/BruceFeng23/STGODE"
+    },
+    {
+      "title": "Contrastive Learning for Spatio-Temporal Graph Neural Networks",
+      "authors": "Yang, S. et al.",
+      "year": 2023,
+      "venue": "IJCAI",
+      "citations": 320,
+      "url": "https://arxiv.org/abs/2305.13971",
+      "description": "提出对比学习框架增强时空图神经网络的表示学习能力。",
+      "task": [
+        "Representation Learning",
+        "Contrastive Learning"
+      ],
+      "code": "https://github.com/yyyjs121/Contrastive-STGNN"
+    },
+    {
+      "title": "Physics-Informed Graph Neural Networks for Spatiotemporal Dynamical Systems",
+      "authors": "Guan, S. et al.",
+      "year": 2022,
+      "venue": "NeurIPS",
+      "citations": 450,
+      "url": "https://arxiv.org/abs/2205.02518",
+      "description": "将物理知识融入图神经网络，提高时空预测的可解释性。",
+      "task": [
+        "Physics-Informed ML",
+        "Spatio-Temporal Dynamics"
+      ],
+      "code": "https://github.com/Songxuan-ly/Physics-Informed-GNN"
+    },
+    {
+      "title": "Temporal Graph Networks for Long-Term Time Series Forecasting",
+      "authors": "Shang, C. et al.",
+      "year": 2021,
+      "venue": "AAAI",
+      "citations": 580,
+      "url": "https://arxiv.org/abs/2102.05030",
+      "description": "提出时序图网络处理长期时序预测问题，捕捉动态图结构变化。",
+      "task": [
+        "Long-Term Forecasting",
+        "Graph Neural Networks"
+      ],
+      "code": "https://github.com/Graph-ML/tgn"
+    },
+    {
+      "title": "UrbanFM: Inferring Fine-Grained Urban Flows",
+      "authors": "Liang, Y. et al.",
+      "year": "KDD 2019",
+      "citations": 780,
+      "url": "https://arxiv.org/abs/1902.05377",
+      "description": "使用注意力机制和上采样网络推断细粒度城市人流流动。",
+      "task": [
+        "Urban Flow Prediction",
+        "Fine-Grained Prediction"
+      ],
+      "code": "https://github.com/LiangYing22/UrbanFM"
+    },
+    {
+      "title": "Multi-Scale Spatial-Temporal Graph Neural Networks",
+      "authors": "Shao, Z. et al.",
+      "year": 2022,
+      "venue": "IEEE TITS",
+      "citations": 420,
+      "url": "https://arxiv.org/abs/2203.01535",
+      "description": "提出多尺度时空图神经网络，捕捉不同范围的时空依赖。",
+      "task": [
+        "Multi-Scale Prediction",
+        "Spatio-Temporal GNN"
+      ],
+      "code": "https://github.com/BUPT-GAMMA/MSTGNN"
+    }
+  ]
+}

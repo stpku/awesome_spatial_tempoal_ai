@@ -1,0 +1,192 @@
+{
+  "conferences": [
+    {
+      "name": "ACM SIGSPATIAL",
+      "full_name": "ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems",
+      "url": "https://sigspatial2025.sigspatial.org/",
+      "location": "Minneapolis, MN, USA",
+      "date": "November 3-6, 2025",
+      "deadline": "Passed",
+      "focus": [
+        "Spatial Computing",
+        "GIS",
+        "Spatiotemporal Databases",
+        "Geographic Information Systems"
+      ],
+      "categories": [
+        "Spatial Computing",
+        "GIS"
+      ]
+    },
+    {
+      "name": "CVPR",
+      "full_name": "Computer Vision and Pattern Recognition Conference",
+      "url": "http://cvpr2025.thecvf.com/",
+      "date": "2025",
+      "deadline": "Passed",
+      "focus": [
+        "Computer Vision",
+        "3D Reconstruction",
+        "Spatial Intelligence",
+        "Pattern Recognition"
+      ],
+      "categories": [
+        "Computer Vision",
+        "Deep Learning"
+      ]
+    },
+    {
+      "name": "ICLR",
+      "full_name": "International Conference on Learning Representations",
+      "url": "https://iclr.cc/",
+      "date": "2025",
+      "deadline": "Passed",
+      "focus": [
+        "Deep Learning",
+        "Representation Learning",
+        "Spatial Intelligence",
+        "World Models"
+      ],
+      "categories": [
+        "Machine Learning",
+        "Deep Learning"
+      ]
+    },
+    {
+      "name": "NeurIPS",
+      "full_name": "Conference on Neural Information Processing Systems",
+      "url": "https://neurips.cc/",
+      "date": "2025",
+      "deadline": "Passed",
+      "focus": [
+        "Machine Learning",
+        "AI",
+        "Spatial Computing",
+        "World Models"
+      ],
+      "categories": [
+        "Machine Learning",
+        "AI"
+      ]
+    },
+    {
+      "name": "ICML",
+      "full_name": "International Conference on Machine Learning",
+      "url": "https://icml.cc/",
+      "date": "2025",
+      "deadline": "Passed",
+      "focus": [
+        "Machine Learning",
+        "AI",
+        "Spatiotemporal Data Learning",
+        "World Model Research"
+      ],
+      "categories": [
+        "Machine Learning",
+        "AI"
+      ]
+    },
+    {
+      "name": "SIGGRAPH",
+      "full_name": "Special Interest Group on Computer GRAPHics Conference",
+      "url": "https://s2025.siggraph.org/",
+      "date": "2025",
+      "deadline": "Passed",
+      "focus": [
+        "Computer Graphics",
+        "3D Modeling",
+        "3D World Generation",
+        "Spatial Computing"
+      ],
+      "categories": [
+        "Computer Graphics",
+        "3D Modeling"
+      ]
+    },
+    {
+      "name": "ECCV",
+      "full_name": "European Conference on Computer Vision",
+      "url": "https://eccv.ecva.net/",
+      "date": "2026",
+      "deadline": "TBD",
+      "focus": [
+        "Computer Vision",
+        "AI",
+        "Spatial Intelligence",
+        "World Models"
+      ],
+      "categories": [
+        "Computer Vision",
+        "AI"
+      ]
+    },
+    {
+      "name": "Spatial Data Science Conference",
+      "full_name": "Spatial Data Science Conference",
+      "url": "https://spatial-data-science-conference.com/",
+      "date": "2025",
+      "deadline": "TBD",
+      "focus": [
+        "Spatial Data Science",
+        "Geospatial AI",
+        "Spatial Analysis",
+        "Analytics"
+      ],
+      "categories": [
+        "Spatial Data Science",
+        "Analytics"
+      ]
+    },
+    {
+      "name": "AAG Annual Meeting",
+      "full_name": "American Association of Geographers Annual Meeting",
+      "url": "https://www.aag.org/",
+      "date": "2025",
+      "deadline": "Passed",
+      "focus": [
+        "Geography",
+        "Spatial Analysis",
+        "Geographic Information Science",
+        "Spatial AI"
+      ],
+      "categories": [
+        "Geography",
+        "Spatial Analysis"
+      ]
+    },
+    {
+      "name": "RSS 2025",
+      "full_name": "Robotics: Science and Systems Conference",
+      "url": "https://roboticsconference.org/",
+      "date": "2025",
+      "deadline": "Passed",
+      "focus": [
+        "Robotics",
+        "Spatial Intelligence",
+        "3D Perception",
+        "Robot Learning"
+      ],
+      "categories": [
+        "Robotics",
+        "AI"
+      ]
+    },
+    {
+      "name": "AAAI 2026",
+      "full_name": "AAAI Conference on Artificial Intelligence",
+      "url": "https://aaai.org/Conferences/AAAI-2026/",
+      "date": "2026",
+      "deadline": "TBD",
+      "focus": [
+        "Artificial Intelligence",
+        "World Models",
+        "3D Generation",
+        "Spatial Intelligence"
+      ],
+      "categories": [
+        "AI",
+        "Machine Learning"
+      ]
+    }
+  ]
+}

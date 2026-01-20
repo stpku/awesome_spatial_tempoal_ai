@@ -1,0 +1,159 @@
+{
+  "datasets": [
+    {
+      "name": "TaxiBJ",
+      "url": "https://paperswithcode.com/dataset/taxibj",
+      "description": "北京出租车轨迹数据集，包含 GPS 数据和气象数据，用于城市人流预测研究。",
+      "time_range": "2013-2016",
+      "samples": "10M+",
+      "location": "Beijing, China",
+      "type": "Trajectory",
+      "task": [
+        "Crowd Flow Prediction",
+        "Traffic Prediction"
+      ],
+      "format": "CSV, H5",
+      "paper": "https://arxiv.org/abs/1701.02543"
+    },
+    {
+      "name": "LargeST",
+      "url": "https://github.com/liuxu77/LargeST",
+      "description": "大规模交通预测基准数据集，包含多个城市的交通数据（NeurIPS 2023）。",
+      "time_range": "2017-2021",
+      "samples": "100M+",
+      "location": "California, USA",
+      "type": "Traffic",
+      "task": [
+        "Traffic Forecasting",
+        "Spatio-Temporal Prediction"
+      ],
+      "format": "CSV, Parquet",
+      "paper": "https://arxiv.org/abs/2306.08235"
+    },
+    {
+      "name": "NYC Taxi",
+      "url": "https://transdim.github.io/dataset/NYC-taxi/",
+      "description": "纽约市出租车和共享单车数据，用于时空预测和交通分析。",
+      "time_range": "2015-2020",
+      "samples": "50M+",
+      "location": "New York, USA",
+      "type": "Mobility",
+      "task": [
+        "Demand Prediction",
+        "Flow Forecasting"
+      ],
+      "format": "CSV",
+      "source": "NYC TLC"
+    },
+    {
+      "name": "Porto Taxi",
+      "url": "https://archive.ics.uci.edu/dataset/339/taxi+service+trajectory+prediction+",
+      "description": "葡萄牙波尔图市出租车轨迹数据，用于轨迹预测挑战赛（ECML PKDD 2015）。",
+      "time_range": "2013-2014",
+      "samples": "1.7M",
+      "location": "Porto, Portugal",
+      "type": "Trajectory",
+      "task": [
+        "Trajectory Prediction",
+        "Destination Prediction"
+      ],
+      "format": "CSV",
+      "paper": "https://arxiv.org/abs/1507.05509"
+    },
+    {
+      "name": "Amelia-42",
+      "url": "https://ameliacmu.github.io/amelia-dataset/",
+      "description": "大规模机场表面移动数据集，覆盖美国42个机场的航空器移动数据。",
+      "time_range": "2022-present",
+      "samples": "10M+",
+      "location": "USA",
+      "type": "Aviation",
+      "task": [
+        "Airport Surface Movement",
+        "Air Traffic Management"
+      ],
+      "format": "HDF5",
+      "source": "US NAS"
+    },
+    {
+      "name": "trajdata",
+      "url": "https://github.com/NVlabs/trajdata",
+      "description": "统一的轨迹预测数据集接口，整合多个主流轨迹预测数据集。",
+      "time_range": "Various",
+      "samples": "Various",
+      "location": "Multiple",
+      "type": "Unified Interface",
+      "task": [
+        "Trajectory Forecasting",
+        "Motion Prediction"
+      ],
+      "format": "Python Package",
+      "datasets": [
+        "nuScenes",
+        "Waymo",
+        "Argoverse",
+        "INTERACTION"
+      ]
+    },
+    {
+      "name": "Deep-NYC-Taxi-Bike",
+      "url": "https://github.com/Evens1sen/Deep-NYC-Taxi-Bike",
+      "description": "纽约市出租车和共享单车区域交通需求预测数据集（ITSC 2022）。",
+      "time_range": "2019-2020",
+      "samples": "5M+",
+      "location": "New York, USA",
+      "type": "Mobility",
+      "task": [
+        "Demand Forecasting",
+        "Multimodal Prediction"
+      ],
+      "format": "CSV",
+      "paper": "https://arxiv.org/abs/2205.07572"
+    },
+    {
+      "name": "TaxiCQ",
+      "url": "https://github.com/CQRhinoZ/TaxiCQ",
+      "description": "交通预测数据集，包含出租车 GPS 轨迹和交通流量数据。",
+      "time_range": "2020-2022",
+      "samples": "2M+",
+      "location": "Chongqing, China",
+      "type": "Traffic",
+      "task": [
+        "Traffic Prediction",
+        "Flow Forecasting"
+      ],
+      "format": "CSV",
+      "paper": "https://arxiv.org/abs/2208.12984"
+    },
+    {
+      "name": "PEMS-BAY",
+      "url": "https://pems.dot.ca.gov/",
+      "description": "加州湾区交通流量数据，广泛用于时空图神经网络研究。",
+      "time_range": "2017-2018",
+      "samples": "1M+",
+      "location": "California, USA",
+      "type": "Traffic",
+      "task": [
+        "Traffic Forecasting",
+        "Speed Prediction"
+      ],
+      "format": "CSV",
+      "source": "Caltrans PEMS"
+    },
+    {
+      "name": "METR-LA",
+      "url": "https://github.com/liyaguang/DCRNN",
+      "description": "洛杉矶交通传感器数据，用于交通速度预测研究。",
+      "time_range": "2012-2013",
+      "samples": "2M+",
+      "location": "Los Angeles, USA",
+      "type": "Traffic",
+      "task": [
+        "Traffic Speed Prediction",
+        "Spatio-Temporal Forecasting"
+      ],
+      "format": "CSV",
+      "paper": "https://arxiv.org/abs/1707.01926"
+    }
+  ]
+}

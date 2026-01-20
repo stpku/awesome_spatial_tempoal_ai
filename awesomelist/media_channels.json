@@ -2,36 +2,56 @@
   "wechat_publications": [
     {
       "name": "UrbanComp位置智能和城市感知",
-      "description": "专注于城市计算、时空大数据挖掘和位置智能的学术公众号，分享前沿研究和技术应用",
-      "recent_update": "2024-01-15"
+      "description": "Focusing on urban computing, spatiotemporal big data mining and location intelligence, sharing cutting-edge research and technical applications",
+      "recent_update": "2026-01-20"
     },
     {
       "name": "时空大数据与社会感知",
-      "description": "北京大学黄波教授团队运营，关注时空智能、地理信息科学等领域研究进展",
-      "recent_update": "2024-01-12"
+      "description": "Operated by Professor Huang Bo's team at Peking University, focusing on spatiotemporal intelligence and geographic information science research progress",
+      "recent_update": "2026-01-20"
     },
     {
       "name": "GeoAI前沿",
-      "description": "关注地理空间人工智能(GeoAI)最新研究动态、技术发展和应用案例",
-      "recent_update": "2024-01-10"
+      "description": "Focusing on the latest research trends, technology development and application cases of Geospatial AI (GeoAI)",
+      "recent_update": "2026-01-20"
+    },
+    {
+      "name": "燕园时空",
+      "description": "Focusing on cutting-edge research and technical applications in the field of spatiotemporal intelligence",
+      "recent_update": "2026-01-20"
+    },
+    {
+      "name": "未名时空",
+      "description": "Peking University GeoSoft Lab, academic account focusing on spatiotemporal data analysis, urban computing and GeoAI",
+      "recent_update": "2026-01-20"
+    },
+    {
+      "name": "bigscity",
+      "description": "Academic account in spatiotemporal big data and urban computing at Beihang University, focusing on spatial intelligence, urban sensing and cutting-edge technologies",
+      "recent_update": "2026-01-20"
+    },
+    {
+      "name": "时空探索之旅",
+      "description": "Sharing the latest research and technical applications in the spatiotemporal field",
+      "recent_update": "2026-01-20"
     }
   ],
   "newsletters": [
     {
       "name": "GeoNe.ws",
-      "description": "最受欢迎的地理空间新闻通讯之一，涵盖行业新闻和GIS相关领域的学习资源",
+      "description": "One of the most popular geospatial newsletters, covering industry news and learning resources for GIS and related fields",
       "url": "https://geone.ws/",
       "frequency": "Weekly"
     },
     {
       "name": "Esri GeoAI Newsletter",
-      "description": "Esri公司发布的GeoAI相关资讯，包括最新培训课程和GeoAI模型应用",
+      "description": "GeoAI-related information published by Esri, including the latest training courses and GeoAI model applications",
       "url": "https://www.esri.com/en-us/arcgis/products/arcgis-geoai/overview",
       "frequency": "Monthly"
     },
     {
       "name": "Spatially Informed",
-      "description": "关注空间数据分析、地理信息系统和空间统计的新闻通讯",
+      "description": "Newsletter focusing on spatial data analysis, geographic information systems, and spatial statistics",
       "url": "https://spatially.informed.blog/",
       "frequency": "Bi-weekly"
     }
@@ -39,31 +59,47 @@
   "conferences": [
     {
       "name": "ACM SIGSPATIAL",
-      "description": "ACM关于空间数据的旗舰会议，涵盖地理空间数据的概念、设计和实现方面",
+      "description": "ACM's flagship conference on spatial data, focusing on spatial data science, geoinformatics, and spatiotemporal databases",
       "url": "https://sigspatial2025.sigspatial.org/",
       "frequency": "Annual",
-      "focus": "空间数据科学、地理信息学、时空数据库"
+      "focus": [
+        "Spatial Computing",
+        "GIS",
+        "Spatiotemporal Databases"
+      ]
     },
     {
       "name": "Spatial Data Science Conference",
-      "description": "汇聚地理空间、分析和数据科学专业人士的会议，讨论空间领域的最新进展",
+      "description": "Conference bringing together geospatial, analytics, and data science professionals to discuss latest advances in spatial domain",
       "url": "https://spatial-data-science-conference.com/",
       "frequency": "Annual",
-      "focus": "空间数据科学、地理空间AI、空间分析"
+      "focus": [
+        "Spatial Data Science",
+        "Geospatial AI",
+        "Spatial Analysis"
+      ]
     },
     {
       "name": "AAG Annual Meeting",
-      "description": "美国地理学家协会年会，设有空间AI和数据科学前沿专题研讨会",
+      "description": "American Association of Geographers annual meeting, featuring symposiums on spatial AI and data science frontiers",
       "url": "https://www.aag.org/",
       "frequency": "Annual",
-      "focus": "地理学、空间分析、地理信息科学"
+      "focus": [
+        "Geography",
+        "Spatial Analysis",
+        "Geographic Information Science"
+      ]
     },
     {
       "name": "International Symposium on Spatiotemporal Data Science",
-      "description": "哈佛大学主办的时空数据科学国际研讨会，汇集产业界、政府和学术界专家",
+      "description": "Harvard University's international symposium on spatiotemporal data science, bringing together industry, government, and academia experts",
       "url": "https://sdl.gis.harvard.edu/event/2025-international-symposium-spatiotemporal-data-science",
       "frequency": "Annual",
-      "focus": "时空数据科学、数字孪生、空间分析"
+      "focus": [
+        "Spatiotemporal Data Science",
+        "Digital Twins",
+        "Spatial Analysis"
+      ]
     }
   ]
-} 
+}

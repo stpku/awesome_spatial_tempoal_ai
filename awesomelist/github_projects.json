@@ -7,17 +7,24 @@
           "name": "LibCity",
           "url": "https://github.com/LibCity/Bigscity-LibCity",
           "description": "A unified, comprehensive library for reproducing and developing spatial-temporal prediction methods, facilitating research and application in urban computing.",
-          "stars": 2500,
-          "last_updated": "2024-01-15",
-          "tech_stack": ["Python", "PyTorch", "TensorFlow"]
+          "stars": 3200,
+          "last_updated": "2026-01-20",
+          "tech_stack": [
+            "Python",
+            "PyTorch",
+            "TensorFlow"
+          ]
         },
         {
           "name": "TorchSpatiotemporal",
           "url": "https://github.com/nnaisense/TorchSpatiotemporal",
           "description": "A PyTorch library for spatiotemporal sequence modeling, providing implementations of various spatiotemporal models.",
-          "stars": 850,
-          "last_updated": "2024-01-10",
-          "tech_stack": ["Python", "PyTorch"]
+          "stars": 1100,
+          "last_updated": "2026-01-20",
+          "tech_stack": [
+            "Python",
+            "PyTorch"
+          ]
         }
       ]
     },
@@ -28,9 +35,13 @@
           "name": "MovingPandas",
           "url": "https://github.com/anitagraser/movingpandas",
           "description": "Processing and visualization of movement data based on GeoPandas, providing trajectory analytics capabilities.",
-          "stars": 1200,
-          "last_updated": "2024-01-12",
-          "tech_stack": ["Python", "GeoPandas", "Shapely"]
+          "stars": 1500,
+          "last_updated": "2026-01-20",
+          "tech_stack": [
+            "Python",
+            "GeoPandas",
+            "Shapely"
+          ]
         }
       ]
     },
@@ -41,17 +52,101 @@
           "name": "GeoPandas",
           "url": "https://github.com/geopandas/geopandas",
           "description": "Python library that extends pandas to allow spatial operations on geometric types, widely used for geospatial ML.",
-          "stars": 4800,
-          "last_updated": "2024-01-16",
-          "tech_stack": ["Python", "Pandas", "Shapely"]
+          "stars": 5800,
+          "last_updated": "2026-01-20",
+          "tech_stack": [
+            "Python",
+            "Pandas",
+            "Shapely"
+          ]
         },
         {
           "name": "PySAL",
           "url": "https://github.com/pysal/pysal",
           "description": "Python Spatial Analysis Library, providing tools for spatial data analysis and modeling.",
+          "stars": 1200,
+          "last_updated": "2026-01-20",
+          "tech_stack": [
+            "Python",
+            "Spatial Statistics"
+          ]
+        },
+        {
+          "name": "GeoAI",
+          "url": "https://github.com/opengeos/geoai",
+          "description": "A comprehensive Python package for integrating artificial intelligence with geospatial data analysis and visualization.",
+          "stars": 850,
+          "last_updated": "2026-01-20",
+          "tech_stack": [
+            "Python",
+            "PyTorch",
+            "Transformers"
+          ]
+        },
+        {
+          "name": "SRAI",
+          "url": "https://github.com/kraina-ai/srai",
+          "description": "Spatial Representations for Artificial Intelligence - a Python library toolkit for geospatial machine learning focused on creating embeddings for downstream tasks.",
+          "stars": 120,
+          "last_updated": "2026-01-20",
+          "tech_stack": [
+            "Python",
+            "Machine Learning",
+            "Embeddings"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "World Models & 3D Generation",
+      "projects": [
+        {
+          "name": "WorldGrow",
+          "url": "https://github.com/world-grow/WorldGrow",
+          "description": "WorldGrow: Generating Infinite 3D World [AAAI 2026 Oral]",
+          "stars": 650,
+          "last_updated": "2026-01-20",
+          "tech_stack": [
+            "Python",
+            "3D Generation",
+            "World Models"
+          ]
+        },
+        {
+          "name": "WorldGen",
+          "url": "https://github.com/ZiYang-xie/WorldGen",
+          "description": "WorldGen - Generate Any 3D Scene in Seconds",
+          "stars": 843,
+          "last_updated": "2026-01-20",
+          "tech_stack": [
+            "Python",
+            "3D Generation",
+            "Text-to-3D"
+          ]
+        },
+        {
+          "name": "HunyuanWorld-1.0",
+          "url": "https://github.com/Tencent-Hunyuan/HunyuanWorld-1.0",
+          "description": "Generating Immersive, Explorable, and Interactive 3D Worlds from Words or Pixels with Hunyuan3D World Model",
+          "stars": 1200,
+          "last_updated": "2026-01-20",
+          "tech_stack": [
+            "Python",
+            "3D World Model",
+            "Tencent"
+          ]
+        },
+        {
+          "name": "Hunyuan3D-2",
+          "url": "https://github.com/Tencent-Hunyuan/Hunyuan3D-2",
+          "description": "High-Resolution 3D Assets Generation with Large Scale Hunyuan3D Diffusion Models",
           "stars": 950,
-          "last_updated": "2024-01-11",
-          "tech_stack": ["Python", "Spatial Statistics"]
+          "last_updated": "2026-01-20",
+          "tech_stack": [
+            "Python",
+            "3D Diffusion",
+            "High-Resolution"
+          ]
         }
       ]
     },
@@ -61,10 +156,14 @@
         {
           "name": "Public ST APIs",
           "url": "https://gitee.com/stpku/public-st-apis",
-          "description": "一个可扩展的地理空间API集合，专注于满足各类时空信息服务需求，如地图服务、天气API、POI查询、空间智能等。",
+          "description": "A scalable collection of geospatial APIs focused on meeting various spatio-temporal service needs, such as mapping services, weather APIs, POI queries, spatial intelligence, etc.",
           "stars": null,
-          "last_updated": "2024-01-17",
-          "tech_stack": ["API Collection", "Geospatial", "Spatio-Temporal"]
+          "last_updated": "2026-01-20",
+          "tech_stack": [
+            "API Collection",
+            "Geospatial",
+            "Spatio-Temporal"
+          ]
         }
       ]
     },
@@ -76,98 +175,146 @@
           "url": "https://grass.osgeo.org/",
           "description": "A powerful open-source geospatial processing engine that supports advanced modeling, time series analysis, and spatial data management with comprehensive spatiotemporal capabilities.",
           "stars": null,
-          "last_updated": "2024-01-17",
-          "tech_stack": ["C", "Python", "Time Series Analysis"]
+          "last_updated": "2026-01-20",
+          "tech_stack": [
+            "C",
+            "Python",
+            "Time Series Analysis"
+          ]
         },
         {
           "name": "PostGIS",
           "url": "https://postgis.net/",
           "description": "Spatial database extender for PostgreSQL that supports temporal dimensions and spatiotemporal queries with robust indexing capabilities.",
           "stars": null,
-          "last_updated": "2024-01-17",
-          "tech_stack": ["SQL", "PostgreSQL", "Temporal Queries"]
+          "last_updated": "2026-01-20",
+          "tech_stack": [
+            "SQL",
+            "PostgreSQL",
+            "Temporal Queries"
+          ]
         },
         {
           "name": "GeoServer",
           "url": "https://geoserver.org/",
           "description": "Open source server for sharing geospatial data that provides spatiotemporal data services and dynamic map creation with time-enabled layers.",
           "stars": null,
-          "last_updated": "2024-01-17",
-          "tech_stack": ["Java", "OGC Standards", "Time Services"]
+          "last_updated": "2026-01-20",
+          "tech_stack": [
+            "Java",
+            "OGC Standards",
+            "Time Services"
+          ]
         },
         {
           "name": "GDAL/OGR",
           "url": "https://gdal.org/",
           "description": "Geospatial data abstraction library supporting spatiotemporal data formats and transformations with extensive format support.",
           "stars": null,
-          "last_updated": "2024-01-17",
-          "tech_stack": ["C++", "Python", "Data Formats"]
+          "last_updated": "2026-01-20",
+          "tech_stack": [
+            "C++",
+            "Python",
+            "Data Formats"
+          ]
         },
         {
           "name": "QGIS",
           "url": "https://qgis.org/",
           "description": "Leading open source GIS desktop software with plugins supporting spatiotemporal analysis and visualization of time-series data.",
           "stars": null,
-          "last_updated": "2024-01-17",
-          "tech_stack": ["C++", "Python", "Visualization"]
+          "last_updated": "2026-01-20",
+          "tech_stack": [
+            "C++",
+            "Python",
+            "Visualization"
+          ]
         },
         {
           "name": "Open Data Cube",
           "url": "https://www.opendatacube.org/",
           "description": "System for analyzing Earth observation data designed specifically for spatiotemporal data cubes and time-series analysis.",
           "stars": null,
-          "last_updated": "2024-01-17",
-          "tech_stack": ["Python", "Data Cubes", "Time Series"]
+          "last_updated": "2026-01-20",
+          "tech_stack": [
+            "Python",
+            "Data Cubes",
+            "Time Series"
+          ]
         },
         {
           "name": "MobilityDB",
           "url": "https://www.mobilitydb.com/",
           "description": "Open source extension to PostgreSQL for managing and analyzing trajectory data and moving objects with advanced spatiotemporal queries.",
           "stars": null,
-          "last_updated": "2024-01-17",
-          "tech_stack": ["PostgreSQL", "Trajectories", "Movement Analysis"]
+          "last_updated": "2026-01-20",
+          "tech_stack": [
+            "PostgreSQL",
+            "Trajectories",
+            "Movement Analysis"
+          ]
         },
         {
           "name": "rasdaman",
           "url": "http://www.rasdaman.org/",
           "description": "Array database for managing and analyzing multi-dimensional raster data including spatiotemporal data cubes.",
           "stars": null,
-          "last_updated": "2024-01-17",
-          "tech_stack": ["C++", "Raster Data", "Array Processing"]
+          "last_updated": "2026-01-20",
+          "tech_stack": [
+            "C++",
+            "Raster Data",
+            "Array Processing"
+          ]
         },
         {
           "name": "Orfeo ToolBox",
           "url": "https://www.orfeo-toolbox.org/",
           "description": "Remote sensing image processing library with time series analysis capabilities for spatiotemporal earth observation data.",
           "stars": null,
-          "last_updated": "2024-01-17",
-          "tech_stack": ["C++", "Remote Sensing", "Time Series"]
+          "last_updated": "2026-01-20",
+          "tech_stack": [
+            "C++",
+            "Remote Sensing",
+            "Time Series"
+          ]
         },
         {
           "name": "TorchGeo",
           "url": "https://torchgeo.rtfd.io/",
           "description": "Deep learning library for geospatial data with specific support for spatiotemporal remote sensing datasets.",
           "stars": null,
-          "last_updated": "2024-01-17",
-          "tech_stack": ["Python", "PyTorch", "Remote Sensing"]
+          "last_updated": "2026-01-20",
+          "tech_stack": [
+            "Python",
+            "PyTorch",
+            "Remote Sensing"
+          ]
         },
         {
           "name": "actinia",
           "url": "https://actinia.mundialis.de/",
           "description": "REST API for GRASS GIS providing cloud-based spatiotemporal analysis capabilities and processing services.",
           "stars": null,
-          "last_updated": "2024-01-17",
-          "tech_stack": ["Python", "REST API", "Cloud Processing"]
+          "last_updated": "2026-01-20",
+          "tech_stack": [
+            "Python",
+            "REST API",
+            "Cloud Processing"
+          ]
         },
         {
           "name": "GeoTools",
           "url": "https://www.geotools.org/",
           "description": "Java geospatial toolkit with spatiotemporal data processing capabilities and OGC standard implementations.",
           "stars": null,
-          "last_updated": "2024-01-17",
-          "tech_stack": ["Java", "OGC Standards", "Data Processing"]
+          "last_updated": "2026-01-20",
+          "tech_stack": [
+            "Java",
+            "OGC Standards",
+            "Data Processing"
+          ]
         }
       ]
     }
   ]
-} 
+}

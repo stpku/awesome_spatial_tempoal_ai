@@ -6,7 +6,7 @@
       "url": "https://www.tandfonline.com/journals/tgis20",
       "publisher": "Taylor & Francis",
       "impact_factor": 2.9,
-      "focus": "GIS理论与算法、时空数据分析"
+      "focus": "GIS theory and algorithms, spatiotemporal data analysis"
     },
     {
       "name": "ISPRS Journal of Photogrammetry and Remote Sensing",
@@ -14,7 +14,7 @@
       "url": "https://www.journals.elsevier.com/isprs-journal-of-photogrammetry-and-remote-sensing",
       "publisher": "Elsevier",
       "impact_factor": 8.9,
-      "focus": "遥感、摄影测量、空间信息科学"
+      "focus": "Remote sensing, photogrammetry, and spatial information science"
     },
     {
       "name": "Computers, Environment and Urban Systems",
@@ -22,7 +22,7 @@
       "url": "https://www.journals.elsevier.com/computers-environment-and-urban-systems",
       "publisher": "Elsevier",
       "impact_factor": 6.7,
-      "focus": "城市计算、地理信息系统、空间分析"
+      "focus": "Urban computing, geographic information systems, and spatial analysis"
     },
     {
       "name": "ISPRS International Journal of Geo-Information",
@@ -30,7 +30,7 @@
       "url": "https://www.mdpi.com/journal/ijgi",
       "publisher": "MDPI",
       "impact_factor": 2.8,
-      "focus": "地理信息科学、空间信息技术、时空数据分析"
+      "focus": "Geographical information science, spatial information technology, and spatiotemporal data analysis"
     },
     {
       "name": "IEEE Transactions on Intelligent Transportation Systems",
@@ -38,7 +38,7 @@
       "url": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6979",
       "publisher": "IEEE",
       "impact_factor": 6.8,
-      "focus": "智能交通系统、时空数据分析、移动模式预测"
+      "focus": "Intelligent transportation systems, spatiotemporal data analysis, and mobility pattern prediction"
     }
   ],
   "chinese": [
@@ -71,4 +71,4 @@
       "focus": "地理信息科学、时空大数据、GeoAI"
     }
   ]
-} 
+}
