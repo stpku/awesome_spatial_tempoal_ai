@@ -1,5 +1,13 @@
 # Awesome Spatio-Temporal AI
 
+<p align="left">
+  <img alt="entries" src="https://img.shields.io/endpoint?url=https://stpku.github.io/awesome_spatial_tempoal_ai/reports/badges/entries.json" />
+  <img alt="broken links" src="https://img.shields.io/endpoint?url=https://stpku.github.io/awesome_spatial_tempoal_ai/reports/badges/broken_rate.json" />
+  <img alt="stale" src="https://img.shields.io/endpoint?url=https://stpku.github.io/awesome_spatial_tempoal_ai/reports/badges/stale.json" />
+  <img alt="last update" src="https://img.shields.io/endpoint?url=https://stpku.github.io/awesome_spatial_tempoal_ai/reports/badges/updated.json" />
+  
+</p>
+
 精选的时空智能（Spatio-Temporal AI）资源合集，涵盖空间智能、世界模型、开源项目、学术期刊、行业媒体等。
 
 最后更新: 2026-01-20

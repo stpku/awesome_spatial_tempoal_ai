@@ -30,3 +30,7 @@ jobs:
       run: |
         python -c "import json; [json.load(open(f)) for f in ['awesomelist/{}.json'.format(x) for x in ['github_projects', 'latest_projects', 'conferences', 'journals', 'media_channels']]]"
         echo "All JSON files are valid"
+
+    - name: Generate metrics (post-validate)
+      run: |
+        python scripts/metrics.py
