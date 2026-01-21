@@ -6,6 +6,7 @@ import sys
 from pathlib import Path
 
 DATA_DIR = Path("awesomelist")
+SCHEMA_DIR = Path("schemas")
 
 def validate_github_projects(data: dict) -> list:
     """Validate github_projects.json"""
@@ -195,6 +196,20 @@ def main():
         except Exception as e:
             all_errors.append(f"{filename}: {e}")
             print(f"[FAIL] {filename}")
+
+    # Optional: JSON Schema validation for github_projects.json
+    try:
+        schema_path = SCHEMA_DIR / "github_projects.schema.json"
+        projects_path = DATA_DIR / "github_projects.json"
+        if schema_path.exists() and projects_path.exists():
+            import jsonschema  # type: ignore
+            schema = json.loads(schema_path.read_text(encoding="utf-8"))
+            projects = json.loads(projects_path.read_text(encoding="utf-8"))
+            jsonschema.validate(projects, schema)
+            print("[OK]   github_projects.json (schema)\n")
+    except Exception as e:
+        all_errors.append(f"github_projects.json (schema): {e}")
+        print("[FAIL] github_projects.json (schema)\n")
     
     print()
     
