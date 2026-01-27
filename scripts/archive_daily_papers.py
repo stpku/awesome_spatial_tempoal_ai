@@ -7,6 +7,7 @@ import glob
 ST_DAILY_REPORT_DIR = "/mnt/d/04_代码/code/ST-dailyreport"
 AWESOME_DIR = "/mnt/d/04_代码/code/awesome_spatial_temporal_ai"
 PAPERS_JSON_PATH = os.path.join(AWESOME_DIR, "awesomelist", "papers.json")
+README_PATH = os.path.join(AWESOME_DIR, "README.md")
 
 def find_latest_report():
     # Find all .md files in ST-dailyreport/YYYY/MM/DD/
@@ -120,10 +121,8 @@ def update_json(new_papers):
     added_count = 0
     for paper in new_papers:
         if paper['url'] in existing_urls:
-            print(f"Skipping existing URL: {paper['url']}")
             continue
         if paper['title'] in existing_titles:
-            print(f"Skipping existing Title: {paper['title']}")
             continue
             
         data['papers'].insert(0, paper) # Add to top
@@ -138,12 +137,35 @@ def update_json(new_papers):
     else:
         print("No new papers to add.")
 
+def update_readme_date():
+    if not os.path.exists(README_PATH):
+        print(f"Error: {README_PATH} not found.")
+        return
+
+    today_str = datetime.date.today().isoformat()
+    
+    with open(README_PATH, 'r', encoding='utf-8') as f:
+        content = f.read()
+        
+    # Regex to replace "最后更新: YYYY-MM-DD"
+    # Or "Last updated: YYYY-MM-DD"
+    
+    new_content = re.sub(r"最后更新: \d{4}-\d{2}-\d{2}", f"最后更新: {today_str}", content)
+    
+    if new_content != content:
+        with open(README_PATH, 'w', encoding='utf-8') as f:
+            f.write(new_content)
+        print(f"Updated README date to {today_str}")
+    else:
+        print("README date already up to date.")
+
 if __name__ == "__main__":
     latest_md = find_latest_report()
     if latest_md:
         papers = parse_papers(latest_md)
         if papers:
             update_json(papers)
+            update_readme_date()
         else:
             print("No papers found in the report.")
     else:
