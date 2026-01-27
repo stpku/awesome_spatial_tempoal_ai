@@ -1,6 +1,94 @@
 {
   "papers": [
     {
+      "title": "Cosmos Policy: Fine-Tuning Video Models for Visuomotor Control and Planning",
+      "authors": "Unknown",
+      "year": 2026,
+      "venue": "arXiv",
+      "citations": 0,
+      "url": "http://arxiv.org/abs/2601.16163v1",
+      "description": "把视频生成模型的时空先验转为可执行策略，是“世界模型→具身控制”的代表路线；对无人机/机器人巡检很有借鉴。",
+      "task": [],
+      "publisher": "Unknown"
+    },
+    {
+      "title": "Learning Domain Knowledge in Multimodal Large Language Models through Reinforcement Fine-Tuning",
+      "authors": "Unknown",
+      "year": 2026,
+      "venue": "arXiv",
+      "citations": 0,
+      "url": "http://arxiv.org/abs/2601.16419v1",
+      "description": "给 MLLM 引入“可控的领域对齐信号”，为遥感等专业领域的可靠问答、制图解释、工作流代理提供路径。",
+      "task": [],
+      "publisher": "Unknown"
+    },
+    {
+      "title": "DCCS-Det: Directional Context and Cross-Scale-Aware Detector for Infrared Small Target",
+      "authors": "Unknown",
+      "year": 2026,
+      "venue": "arXiv",
+      "citations": 0,
+      "url": "http://arxiv.org/abs/2601.16428v1",
+      "description": "将方向性上下文与跨尺度建模显式化，适合“低对比+小目标”类遥感/监视任务，工程落地价值高。",
+      "task": [],
+      "publisher": "Unknown"
+    },
+    {
+      "title": "HA2F: Dual-module Collaboration-Guided Hierarchical Adaptive Aggregation Framework for Remote Sensing Change Detection",
+      "authors": "Unknown",
+      "year": 2026,
+      "venue": "arXiv",
+      "citations": 0,
+      "url": "http://arxiv.org/abs/2601.16573v1",
+      "description": "聚焦变化检测的多尺度与语义不一致问题，通过分层聚合与模块协同提升“细小变化+大范围变化”兼容性。",
+      "task": [],
+      "publisher": "Unknown"
+    },
+    {
+      "title": "Unsupervised Super-Resolution of Hyperspectral Remote Sensing Images Using Fully Synthetic Training",
+      "authors": "Unknown",
+      "year": 2026,
+      "venue": "arXiv",
+      "citations": 0,
+      "url": "http://arxiv.org/abs/2601.16602v1",
+      "description": "以“全合成数据”绕开真实配准/标注瓶颈，为高光谱 SR 提供可扩展路线，但需要重点审视域偏移与光谱保真。",
+      "task": [],
+      "publisher": "Unknown"
+    },
+    {
+      "title": "Embedding-based Crop Type Classification in the Groundnut Basin of Senegal",
+      "authors": "Unknown",
+      "year": 2026,
+      "venue": "arXiv",
+      "citations": 0,
+      "url": "http://arxiv.org/abs/2601.16900v1",
+      "description": "以表征学习（embedding）切入小农场景作物制图，提示“**更通用的特征空间**”可能比任务头设计更关键。",
+      "task": [],
+      "publisher": "Unknown"
+    },
+    {
+      "title": "AgriPINN: A Process-Informed Neural Network for Interpretable and Scalable Crop Biomass Prediction Under Water Stress",
+      "authors": "Unknown",
+      "year": 2026,
+      "venue": "arXiv",
+      "citations": 0,
+      "url": "http://arxiv.org/abs/2601.16045v1",
+      "description": "用“过程约束/先验”给神经网络加护栏，在小样本或跨区泛化时更稳，同时提升可解释性（对农业部门更友好）。",
+      "task": [],
+      "publisher": "Unknown"
+    },
+    {
+      "title": "Calibrated Probabilistic Interpolation for GEDI Biomass",
+      "authors": "Unknown",
+      "year": 2026,
+      "venue": "arXiv",
+      "citations": 0,
+      "url": "http://arxiv.org/abs/2601.16834v1",
+      "description": "直面“稀疏 LiDAR → 连续生物量图”的核心难题，把**概率插值+校准**放在中心位置，利于下游碳核算与风险决策。",
+      "task": [],
+      "publisher": "Unknown"
+    },
+    {
       "title": "BIGCity: A Universal Spatiotemporal Model for Unified Trajectory and Traffic State Data Analysis",
       "authors": "Xie Yu, Jingyuan Wang, Yifan Yang, Qian Huang, Ke Qu",
       "year": 2025,
