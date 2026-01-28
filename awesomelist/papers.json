@@ -1,6 +1,17 @@
 {
   "papers": [
     {
+      "title": "灾害洞察：面向功能感知与可落地灾害评估的多模态基准",
+      "authors": "Unknown",
+      "year": 2026,
+      "venue": "Unknown",
+      "citations": 0,
+      "url": "",
+      "description": "",
+      "task": [],
+      "publisher": "Unknown"
+    },
+    {
       "title": "Trustworthy Evaluation of Robotic Manipulation: A New Benchmark and AutoEval Methods",
       "authors": "Unknown",
       "year": 2026,
