@@ -5,8 +5,23 @@ import json
 import sys
 from pathlib import Path
 
-DATA_DIR = Path("awesomelist")
-SCHEMA_DIR = Path("schemas")
+# Support both old structure and new src package structure
+try:
+    from src.core import Config, load_json
+except ImportError:
+    # Fallback for direct execution without src package
+    DATA_DIR = Path("awesomelist")
+    SCHEMA_DIR = Path("schemas")
+
+    def load_json(filepath):
+        try:
+            with open(filepath, encoding="utf-8") as f:
+                return json.load(f)
+        except Exception:
+            return None
+else:
+    DATA_DIR = Config.DATA_DIR
+    SCHEMA_DIR = Config.SCHEMA_DIR
 
 def validate_github_projects(data: dict) -> list:
     """Validate github_projects.json"""
