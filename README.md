@@ -241,14 +241,12 @@ with open('awesomelist/github_projects.json', encoding='utf-8') as f:
 | 端点 | 用途 | 内容 | 访问方式 |
 |------|------|------|----------|
 | **GitHub/Gitee** | 数据镜像 | 结构化数据 + 徽章 | 公开访问 |
-| **NAS Git** | 完整代码库 | 包含自动化脚本、验证工具、CI/CD配置 | 内网 SSH |
 | **GitHub Pages** | 静态展示 | 徽章API端点 | 自动部署 |
 
 ### 完整代码仓库
 
 如需获取完整代码（包含自动化维护工具、数据验证脚本、CI/CD配置）：
 
-🔗 **NAS 完整仓库**: `ssh://skyswind@192.168.1.10:22/volume1/gitrepo/awesome_spatial_temporal_ai.git`
 
 完整仓库包含：
 - `src/` - 模块化 Python 包（配置管理、数据验证、日志系统）
@@ -270,7 +268,6 @@ with open('awesomelist/github_projects.json', encoding='utf-8') as f:
 
 ## 🔗 相关链接
 
-- **完整代码仓库**: ssh://skyswind@192.168.1.10:22/volume1/gitrepo/awesome_spatial_temporal_ai.git
 - **GitHub 镜像**: https://github.com/stpku/awesome_spatial_temporal_ai
 - **Gitee 镜像**: https://gitee.com/stpku/awesome_spatial_tempoal_ai
 - **在线徽章**: https://stpku.github.io/awesome_spatial_temporal_ai/reports/badges/
